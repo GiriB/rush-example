@@ -46,7 +46,7 @@
      * The default value is false to avoid legacy compatibility issues.
      * It is strongly recommended to set strictPeerDependencies=true.
      */
-    "strictPeerDependencies": true,
+    "strictPeerDependencies": true
 
 
     /**
@@ -151,7 +151,7 @@
       "production", // projects that ship to production
       "tools",      // non-shipping projects that are part of the developer toolchain
       "prototypes"  // experiments that should mostly be ignored by the review process
-    ],
+    ]
 
     /**
      * A list of NPM package scopes that will be excluded from review.
@@ -328,7 +328,7 @@
        */
       "cyclicDependencyProjects": [
         // "my-toolchain"
-      ],
+      ]
 
       /**
        * If true, then this project will be ignored by the "rush check" command.
